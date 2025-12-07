@@ -36,6 +36,8 @@
     }));
   });
 
+  console.log("heatdata is "+heatData);
+
   const parsedSongs = Papa.parse(songsText, {
     header: true,
     dynamicTyping: true,
